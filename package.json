@@ -1,0 +1,38 @@
+{
+  "name": "actionsheet002",
+  "widgetName": "ActionSheetTwo",
+  "version": "1.0.0",
+  "description": "Action Sheet Number 2",
+  "copyright": "TBN2020",
+  "author": "ttbkk",
+  "config": {
+    "widgetPath": "../..//widgets",
+    "projectPath": "../..//"
+  },
+  "packagePath": "tbn",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "pluggable-widgets-tools build:js:native",
+    "dev": "pluggable-widgets-tools start:js:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:js:native"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttbkk/actionsheet002/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.7.0"
+  },
+  "dependencies": {
+    "@expo/react-native-action-sheet": "^3.6.0",
+    "big.js": "^5.2.2",
+    "expo": "^37.0.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-native": "^0.62.2",
+    "react-native-actionsheet": "^2.4.2"
+  }
+}
